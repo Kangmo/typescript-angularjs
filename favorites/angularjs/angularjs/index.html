@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/angular-resource.min.js"></script>
+    <script src="Scripts/angular-sanitize.min.js"></script>
+    <script src="app/app.routes.js"></script>
+    <script src="app/app.modules.js"></script>
+    <script src="app/interfaces/playlist_interfaces.js"></script>
+    <script src="app/services/playlist_services.js"></script>
+    <script src="app/controllers/demo_controller.js"></script>
+</head>
+<body ng-app="Playlist">
+    <h1>TypeScript HTML App</h1>
+
+    <div id="content"></div>
+    ng view :
+    <div ng-view></div>
+</body>
+</html>
